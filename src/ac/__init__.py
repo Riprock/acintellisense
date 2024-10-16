@@ -4,7 +4,7 @@
 #NOTE: I have only documented the functions I have found code examples for or enough conversation context on forms/etc to tell me what it does
 from typing import Any, Callable
 
-__all__ = ["getDriverName", "getCarState"] 
+__all__ = ["getDriverName", "getCarState", "testcall"] 
 
 def testcall():
     print("test")
