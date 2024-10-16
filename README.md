@@ -20,15 +20,6 @@ after `import ac`, you should be able to use autocomplete.
 
 Now you can check your IDE, autocomplete should work.
 
-## Note
-I dont know why vscode intellisense has a hard time but I had to make the .vscode/settings.json file that contains 
-```
-{
-    "python.analysis.extraPaths": ["./"]
-}
-```
-
-If anyone knows how to fix it so this is not required please let me know
 
 ## Contribution
 Please submit issues/pull requests if there is something missing, documentation inaccuracy, or a revision
