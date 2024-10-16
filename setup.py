@@ -1,7 +1,7 @@
 """The setup module to create the package to be distriubted on pypi"""
 from setuptools import setup, find_packages
 
-VERSION = '1.1.1'
+VERSION = '1.0.0'
 DESCRIPTION = 'Assetto Corsa intellisense stubs helper'
 LONG_DESCRIPTION = """Assetto Corsa stubs library for "ac" object. 
 Helping intellisense and documentation when developing.
