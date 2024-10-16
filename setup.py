@@ -6,6 +6,7 @@ VERSION = '1.0.4'
 DESCRIPTION = 'Assetto Corsa intellisense stubs helper'
 LONG_DESCRIPTION = Path('README.md').read_text(encoding='utf-8')
 # Setting up
+print(find_packages())
 setup(
     name='acintellisense',
     version=VERSION,
