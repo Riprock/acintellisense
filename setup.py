@@ -1,13 +1,10 @@
 """The setup module to create the package to be distriubted on pypi"""
 from setuptools import setup, find_packages
+from pathlib import Path
 
-VERSION = '1.0.3'
+VERSION = '1.0.4'
 DESCRIPTION = 'Assetto Corsa intellisense stubs helper'
-LONG_DESCRIPTION = """Assetto Corsa stubs library for "ac" object. 
-Helping intellisense and documentation when developing.
-
-Currently only implemented whats in the known AC PDF for modding. Working on expanding in the future
-"""
+LONG_DESCRIPTION = Path('README.md').read_text(encoding='utf-8')
 # Setting up
 setup(
     name='acintellisense',

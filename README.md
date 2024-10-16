@@ -12,7 +12,7 @@ Python Pacakage:
 
 You will need to install the package in your environment:
 ```shell
-pip install assetto-intellisense
+pip install acintellisense
 ```
 
 Now if your PyCharm project is accessible to this package,

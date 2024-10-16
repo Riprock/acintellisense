@@ -2,7 +2,7 @@
 #NOTE: Anywhere Type Any is listed- Thats just because I havent figured out the return type yet.
 #NOTE: I am making assumtions based on examples. THis may not be 100% Accurate to each functions use
 #NOTE: I have only documented the functions I have found code examples for or enough conversation context on forms/etc to tell me what it does
-from typing import Any, Callable
+from typing import Callable
 
 __all__ = ["getDriverName", "getCarState", "testcall"] 
 
