@@ -6,6 +6,8 @@ from typing import Any, Callable
 
 __all__ = ["getDriverName", "getCarState"] 
 
+def testcall():
+    print("test")
 
 def getCarState(car_identifier, info_identifier, optional_identifier=None):
     """
