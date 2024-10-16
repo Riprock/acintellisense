@@ -2,7 +2,7 @@
 from setuptools import setup, find_packages
 from pathlib import Path
 
-VERSION = '1.0.4'
+VERSION = '1.0.5'
 DESCRIPTION = 'Assetto Corsa intellisense stubs helper'
 LONG_DESCRIPTION = Path('README.md').read_text(encoding='utf-8')
 # Setting up
