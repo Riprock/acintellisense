@@ -10,7 +10,7 @@ Currently only implemented whats in the known AC PDF for modding. Working on exp
 """
 # Setting up
 setup(
-    name='assetto-intellisense',
+    name='acintellisense',
     version=VERSION,
     author='RipRock',
     author_email='<me@riprock.tech>',
