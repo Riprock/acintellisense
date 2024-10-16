@@ -1,0 +1,24 @@
+# Functions Missing Documentation:
+ - ac.isAcLive
+ - ac.restart
+ - ac.getCarSkin
+ - ac.getDriverNationCode
+ - ac.getCurrentSplits
+ - ac.getTrackLength
+ - ac.getWindSpeed
+ - ac.getWindDirection
+ - ac.isAIControlled
+ - ac.getCarEngineBrakeCount
+ - ac.getCarPowerControllerCount
+ - ac.freeCameraSetClearColor
+ - ac.freeCameraMoveForward
+ - ac.freeCameraMoveRight
+ - ac.freeCameraMoveUpWorld
+ - ac.freeCameraRotatePitch
+ - ac.freeCameraRotateHeading
+ - ac.freeCameraRotateRoll
+ - ac.getCarRestrictor
+ - ac.getCarTyreCompound
+ - ac.getSize
+ - ac.setFont
+ - ac.shutdown
