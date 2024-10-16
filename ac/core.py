@@ -4,11 +4,6 @@
 #NOTE: I have only documented the functions I have found code examples for or enough conversation context on forms/etc to tell me what it does
 from typing import Callable
 
-__all__ = ["getDriverName", "getCarState", "testcall"] 
-
-def testcall():
-    print("test")
-
 def getCarState(car_identifier, info_identifier, optional_identifier=None):
     """
     Gets the current state of the car
