@@ -5,6 +5,7 @@ from pathlib import Path
 VERSION = '1.1.0'
 DESCRIPTION = 'Assetto Corsa intellisense stubs helper'
 LONG_DESCRIPTION = Path('README.md').read_text(encoding='utf-8')
+
 # Setting up
 print(find_packages())
 setup(
@@ -14,6 +15,7 @@ setup(
     author_email='<me@riprock.tech>',
     description=DESCRIPTION,
     long_description=LONG_DESCRIPTION,
+    long_description_content_type='text/markdown',
     packages=find_packages(),
     install_requires=[],
     keywords=['python', 'AC', 'Assetto Corsa', 'dummy', 'stub'],
